@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.examp2.Main3Activity">
+    <TextView
+        android:text="enter name to save!!!!"
+        android:textSize="24sp"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:id="@+id/name"
+        android:hint="name"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:id="@+id/family"
+        android:hint="last name"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_margin="12dp"
+        android:id="@+id/save"
+        android:text="save"
+        android:layout_width="80dp"
+        android:layout_height="50dp" />
+</LinearLayout>
